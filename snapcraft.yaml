@@ -12,11 +12,11 @@ title: Zed Online
 
 apps:
   zed-online:
-    command: "./ZED Online"
+    command: ./rungame.sh
   zed-online-server:
-    command: "./ZED Online Server"
+    command: ./runserver.sh
   zed-online-updater:
-    command: "./ZED Online Updater"
+    command: ./runupdater.sh
 parts:
   zed-online:
     # See 'snapcraft plugins'
